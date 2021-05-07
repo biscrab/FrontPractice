@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>계산기</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="acc.js"></script>
+</head>
+<body>
+
+    <div class="one">
+        <div class="button">
+            <input id="subInput" type="text" readonly> 
+            <input id="mainInput" type="text" readonly>
+            
+            <button onclick="reset()"id="reset">%</button>
+            <button>CE</button>
+            <button>C</button>
+            <button onclick="del()" id="del">del</button>
+            <button>x^2</button>
+            <button>2√x</button>
+            <button>1/x</button>
+            <button onclick="gesan(this)" id="÷">÷</button>
+            <button onclick="isNumber(this)" id="7">7</button>
+            <button onclick="isNumber(this)" id="8">8</button>
+            <button onclick="isNumber(this)" id="9">9</button>
+            <button onclick="gesan(this)" id="*">X</button>
+            <button onclick="isNumber(this)" id="4">4</button>
+            <button onclick="isNumber(this)" id="5">5</button>
+            <button onclick="isNumber(this)" id="6">6</button>
+            <button onclick="gesan(this)" id="-">-</button>
+            <button onclick="isNumber(this)" id="1">1</button>
+            <button onclick="isNumber(this)" id="2">2</button>
+            <button onclick="isNumber(this)" id="3">3</button>
+            <button onclick="gesan(this)" id="+">+</button>
+            <button onclick="gesan(this)" id="+/-">+/-</button>
+            <button onclick="isNumber(this)" id="0">0</button>
+            <button onclick="isNumber(this)" id=".">.</button>
+            <button onclick="result()" id="result">=</button>
+        </div>
+
+    </div>
+
+</body>
+</html>

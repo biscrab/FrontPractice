@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rainbow</title>
+    <script src="color.js"></script>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            user-select: none;
+        }
+        #t{
+            position: absolute;
+            font-size: 100px;
+            border: 0px;
+            background-color: rgba(0, 0, 0, 0);
+            width: 400px;
+            border: 0px;
+            outline: rgba(0, 0, 0, 0);
+            user-select: none;
+        }
+    </style>
+</head>
+<body onclick="change()">
+    <input id="t" readonly></input>
+</body>
+</html>
