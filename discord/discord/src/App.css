@@ -1,0 +1,6 @@
+body{
+  display: flex;
+  justify-content: center;
+  background-image: url('kane.jpg');
+  background-size: cover;
+}

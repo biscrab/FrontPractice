@@ -1,0 +1,13 @@
+.name, .alias {
+    background: black;
+    font-size: 24px;
+    padding: 1rem;
+}
+
+.name {
+    color: red;
+}
+
+.alias {
+    color: bisque;
+}

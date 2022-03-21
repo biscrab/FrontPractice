@@ -1,0 +1,178 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+  body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .G{
+      color: rgb(59, 97, 212);
+      letter-spacing: -10px;
+  }
+  .o1{
+      color: rgb(223, 74, 74);
+      letter-spacing: -10px;
+  }
+  .o2{
+      color: rgb(236, 236, 87);
+      letter-spacing: -10px;
+  }
+  .g{
+      color: rgb(59, 97, 212);
+      letter-spacing: -10px;
+  }
+  .l{
+      color: rgb(81, 197, 119);
+      letter-spacing: -10px;
+  }
+  .e{
+      color: rgb(223, 74, 74);
+      letter-spacing: -10px;
+  }
+  .kane{
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      background-color: white;
+      position: relative;
+      top: 10px;
+      right: 5px;
+      padding: auto;
+  }
+  .Google { 
+      position:absolute;
+      top:20%;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: auto;
+  }
+  .Google span{
+      font-size: 100px;
+      padding: auto;
+  }
+  .text{
+      position: absolute;
+      top: 150px;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 40px;
+      width: 600px;
+      border-radius: 100px;
+      outline: none;
+      border: 1px solid #dfe1e5;
+      padding: 5px 40px;
+  }
+  .text:hover{
+     box-shadow: 0px 0px 5px rgb(179, 179, 179);
+  }
+  .head{
+      position: absolute;
+      top : -10px;
+      right: 5px;
+      padding: auto;
+  }
+  .Gmail{
+      position: relative;
+      right: 15px;
+      cursor: pointer;
+  }
+  .Gmail:hover {
+      text-decoration: underline;
+  }
+  .imagie{
+      position: relative;
+      right: 8px;
+      cursor: pointer;
+  }
+  .imagie:hover{
+      text-decoration: underline;
+  }
+  .icon{
+      position: relative;
+      width: 50px;
+      height: 50px;
+      top: 15px;
+      right: 3px;
+  }
+  .phannel{
+      position: absolute;
+      top: 370px;
+      left: 50%;
+      transform: translateX(-50%);        
+      font-size:medium;
+      padding: auto;
+  }
+  .search{
+      position: relative;
+      right: 10px;
+      height: 40px;
+      width: 150px;
+      background-color: #f8f9fa;
+      border: 0;
+      outline: none;
+      cursor: pointer;
+  }
+  .lucky{
+      position: relative;
+      left: 10px;
+      height: 40px;
+      width: 150px;
+      background-color: #f8f9fa;
+      border: 0;
+      outline: none;
+      cursor: pointer;
+  }
+  .top{
+      position: relative;
+      top: 610px;
+      height: 50px;
+      width: 100%;
+      background-color: #f7f7f7;
+      color: rgba(0, 0, 0, .54);
+      padding: auto;
+  }
+  .lucky:hover{
+      box-shadow: 0px 0px 2px rgb(179, 179, 179);
+  }
+  .search:hover{
+      box-shadow: 0px 0px 2px rgb(179, 179, 179);
+  }
+  .korea{
+      position: relative;
+      left: 50px;
+      top: 10px;
+  }
+  .bottom{
+      position: relative;
+      top: 610px;
+      width: 1600px;
+      height: 55px;
+      left: 50%;
+      background-color: #f7f7f7;
+      color: rgba(0, 0, 0, .54);
+      transform: translate(-50%);
+      border-top: 1px solid rgb(216, 215, 215);
+      padding: auto;
+  }
+  .googleinfo{
+      position: relative;
+      margin: 10px;
+  }
+  .googleinfo:hover{
+      text-decoration: underline;
+  }

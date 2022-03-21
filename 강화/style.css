@@ -1,0 +1,123 @@
+
+body {
+    overflow: hidden;
+    background-color: crimson;
+}
+
+.오른{
+    position: absolute;
+    height: 500px;
+    width: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    outline: none;
+}
+
+.gold{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 200px;
+    border-radius: 50%;
+    left: 150px;
+    user-select: none;
+}
+
+.upgrade{
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    left: 50%;
+    top: 500px;
+    transform: translateX(-50%);
+    font-size: large;
+    cursor: pointer;
+    outline: none;
+}
+
+.upgrade:hover{
+    box-shadow: 0px 0px 30px yellow;
+}
+
+.gold:hover{
+    box-shadow: 0px 0px 30px yellow;
+}
+
+.sellbutton:hover{
+    box-shadow: 0px 0px 30px yellow;
+}
+.status{
+    position: absolute;
+    top: 60px;
+    left: 1100px;
+    height: 500px;
+    width: 350px;
+    background-color: darkred;
+    border-radius: 30px;
+}
+
+.sellbutton{
+    position: relative;
+    top: 400px;
+    left: 50%;
+    height: 40px;
+    width: 200px;
+    font-size: large;
+    transform: translateX(-50%);
+    background-color: indianred;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.info{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#money{
+    color: goldenrod;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    font-size: 30px;
+    position: absolute;
+    top: 130px;
+    left: 200px;
+}
+
+.item{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    left: 50%;
+    top: 60px;
+    transform: translateX(-50%);
+}
+
+.purchase{
+    position: relative;
+    top : -30px;
+    left: 15px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: darkred;
+    font-size: large;
+    border: 0;
+    outline: 0;
+}
+
+.sale{
+    position: relative;
+    top : -30px;
+    left: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: darkred;
+    font-size: large;
+    border: 0;
+    outline: 0;
+}

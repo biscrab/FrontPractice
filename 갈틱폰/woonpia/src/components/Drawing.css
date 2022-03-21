@@ -1,0 +1,6 @@
+
+
+body{
+    background-color: linear-gradient(to top,red 50%,purple 50%);
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;
+}

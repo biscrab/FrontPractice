@@ -1,0 +1,49 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+body{
+    background-color:black;
+  }
+  
+  .head{
+    outline: 1px solid black;
+    background-color:#494949;
+    height: 50px;
+  }
+  
+  .select{
+    margin: 10px;
+  }
+  
+  .wellcome{
+    -webkit-box-reflect: below 5px linear-gradient(to top, white 50%, black 50%);
+    text-shadow: 0 0 .1em, 0 0 .3em;
+  }
+  
+  .wellcomebody{
+    margin-top: 300px;
+  }
+  
+  .Home{
+    color: white;
+  }
+  
+  h1{
+    font-size: 50px;
+  }
+  
+  .intrdoucebody{
+    font-size: 30px;
+  }
+  
+  .Body{
+    text-align: center;
+  }
